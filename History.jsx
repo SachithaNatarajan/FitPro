@@ -53,18 +53,18 @@ const History = ({ exercises }) => {
                   boxShadow: "0px 4px 10px rgba(255, 255, 255, 0.2)",
                 }}
               >
-                <p><strong>Date:</strong> {exercise.date}</p>
-                <p><strong>Name:</strong> {exercise.name}</p>
-                <p><strong>Duration:</strong> {exercise.minutes} minutes</p>
-                <p><strong>Reps:</strong> {exercise.repetitions}</p>
-                <p><strong>Weight:</strong> {exercise.weight} kg</p>
+                <p style={{color:"white"}}><strong>Date:</strong> {exercise.date}</p>
+                <p style={{color:"white"}}><strong>Name:</strong> {exercise.name}</p>
+                <p style={{color:"white"}}><strong>Duration:</strong> {exercise.minutes} minutes</p>
+                <p style={{color:"white"}}><strong>Reps:</strong> {exercise.repetitions}</p>
+                <p style={{color:"white"}}><strong>Weight:</strong> {exercise.weight} kg</p>
                 <p style={{ color: "#7BC243" }}><strong>Calories Burned:</strong> {exercise.caloriesBurned} kcal</p>
               </div>
             ))}
           </div>
         )}
       </div>
-      <footer className="footer" style={{position:"fixed"}}>
+      <footer className="footer" style={{position:"fixed" ,color:"black"}}>
         <div className="footer-content">
           <div className="social-icons">
             

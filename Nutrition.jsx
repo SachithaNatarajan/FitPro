@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaInstagram, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 const Nutrition = () => {
-  const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState("mealPlan");
 
   return (
